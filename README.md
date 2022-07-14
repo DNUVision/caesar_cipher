@@ -1,1 +1,5 @@
 # caesar_cipher
+
+There are more simple ways to convert strings to ints and back to create a good Caesar's cipher. For example I can use the ord() and chr() methods to switch back between the two, however those will convert the values back in forth using the Unicode Standard table. If you look closely at the Unicode table you will see that the alphabet there is(Both Majuscule and miniscule letters) are ordered according to the English alphabet. Thus making the switch natural for English words, but what if I use for example - Latin? then I need to omit two letters - W and Z(and J if you are a purist), of course there are ways past it that one can use to overcome the difficulty, but I decided to take another approach by creating a dictionary with key-value pairs and to loop over them to find the letters in the word and compare between the two.
+
+14/07/22
